@@ -2,8 +2,6 @@
 
 A compact, low-cost multiband patch antenna whose radiating shape was **evolved by an algorithm I wrote in MATLAB**. Instead of drawing the antenna by hand or running a slow full-wave optimization, the algorithm searches tens of thousands of pixel patterns in minutes and hands the best one to CST Studio for full-wave verification. The result is a 60 × 60 mm antenna, 3.3 mm thin, on ordinary FR-4, with **nine resonances between 3.6 and 19 GHz**.
 
-![Top, bottom and side view of the pixelated antenna](images/geometry.png)
-
 > **Status:** simulation only (CST Studio Suite 2025). The antenna has not been fabricated or measured.
 
 ## Why I built this
